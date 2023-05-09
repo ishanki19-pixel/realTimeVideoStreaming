@@ -1,0 +1,47 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's have a Convo</title>
+    <link rel="stylesheet" type="text/css" href="{%static 'css/main.css'%}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="connectheading">Lets Connect <img src="{% static 'images/icon.gif' %}" class="iconGif"/></h1>
+    <div class="cameraContainer">
+        <div class="video-container">
+            <video id="video"  autoplay playsinline ></video> 
+        </div>
+        <div class="cameraControlContainer">
+            <h2 id="label-username">Welcome</h2>
+            <div class="userInputContainer">
+                <input id="username" placeholder="enter username">
+                <button id="btn-join">Join Room</button>
+            </div>
+            <div class="controlBtns">
+                <button id="btn-toggle-audio">Mute yourself</button>
+            <button id="btn-toggle-video">Video Off</button>
+            </div>
+        </div>
+    </div>
+    <div id="chat">
+        <h2 class="chatHeading">Chat</h2>
+        <div>
+            <input id="msg" placeholder="write message"><button id="btn-send-msg">Send Message</button>
+        </div>
+        <div id="messages">
+            <ul id="messages-list"></ul>
+        </div>
+    </div>
+    
+
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

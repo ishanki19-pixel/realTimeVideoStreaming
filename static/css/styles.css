@@ -1,0 +1,47 @@
+/*--------- index.html --------*/
+body{
+    background: hsla(298, 68%, 90%, 1);
+
+background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D5F7", endColorstr="#FBE9D7", GradientType=1 );
+height: 80vh;
+}
+.homeContainer{
+    margin: 10rem 5rem 5rem 5rem;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 3rem;
+}
+
+.homeHeading1{
+    font-size: 3rem;
+}
+.homeHeading2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+    color: #d05849;
+    margin-top: -1rem;
+}
+.homeLink{
+    text-decoration: none;
+    color: #fff;
+    background: #f9745e;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.homeImage{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}

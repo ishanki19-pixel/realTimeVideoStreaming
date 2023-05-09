@@ -1,0 +1,109 @@
+body{
+    background: hsla(298, 68%, 90%, 1);
+
+background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D5F7", endColorstr="#FBE9D7", GradientType=1 );
+}
+
+.connectheading{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 50rem;
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+}
+.iconGif{
+    width: 5rem;
+    height: auto;
+}
+.cameraContainer{
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin: 0 5rem;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 3rem;
+gap:3rem;
+}
+.video-container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+row-gap: 2rem;
+column-gap: 2rem;
+justify-content: center;
+align-items: center;
+border-radius: 25%;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#label-username,.chatHeading{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+}
+.userInputContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+    width: 30rem;
+}
+#username,#msg{
+    border: none;
+    height: 2.2rem;
+    width: 20rem;
+    padding: 0 1rem;
+}
+#btn-join,#btn-send-msg{
+    border: none;
+    background: #f9745e;
+    padding: 0.65rem 2.01rem;
+}
+.controlBtns{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:2rem;
+    width: 30rem;
+}
+#btn-toggle-audio,#btn-toggle-video{
+    border: none;
+    padding: 0.5rem 2rem;
+    display: block;
+    background: #f9745e;
+    width: 15rem;
+}
+#chat{
+    margin: 5rem;
+}
+
+#messages{
+margin-top: 3rem;
+}
+
+#messages-list{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
